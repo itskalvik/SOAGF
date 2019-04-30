@@ -83,6 +83,9 @@ $$
 where $R \in SO(3)$, is a non-convex function. So, it is not viable to solve for $\theta$ following the approach used to obtain $\textbf{d}$ and  $\alpha$.
 
 ## Optimal Goal Formation with Variable Rotation
+
+<img src="http://kdkalvik.github.io/SOAGF/iterative_process.gif" > 
+
 Derenick and Spletzer propose a method to compute the optimal formation parameters $\textbf{d}, \alpha \ and \ \theta$ given the assignments by, constraining the optimization problem with second-order cone constraints. Thereby, formulating the problem as a second-order cone programming (SOCP) which can be solved using modern interior point algorithms.
 
 I found that by iteratively computing the assignments using the Hungarian algorithm, followed by computing formation parameters using SOCP, until the cost $c$ across iterations differs by less than some threshold $\epsilon$, the optimal formation parameters and assignments can be obtained with polynomial time complexity.
