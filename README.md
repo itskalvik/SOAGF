@@ -1,3 +1,5 @@
+## Simultaneous Optimization of Assignments and Goal Formations for Multiple Robots
+
 ### Introduction
 There are several applications where having a large-scale team of robots is advantageous compared to using a  single robot. Tasks can be divided into several sub-tasks which can be distributed among the team of robots, the robots can be reconfigured to solve a complex task which would otherwise require a specialised robot and some tasks could be completed much faster when compared to using a single robot. One such use case would be disaster rescue where robots could be used to find survivors and alert authorities of their location. Another such application is exploration and mapping. Having multiple robots exploring and mapping different regions in space can greatly reduce the amount of time needed to complete the task. 
 
@@ -80,6 +82,7 @@ The following images show the initial problem with the robots oriented with an a
 ![enter image description here](https://lh3.googleusercontent.com/jU5c7bwzksFam9RU3HgYdRBZalLCu12O67KcpeG_24ejtQLFK0B8CgWyseIHI9lo0pq8LBNNTWw)
 ![enter image description here](https://lh3.googleusercontent.com/DfvTqZUa7fqp4-0cKnLy3Pd3l6I2pTdHjuUUDnd58bWXgH0k36ypnYL6jxDei8VdhLgZvVKW8nc)
 ![enter image description here](https://lh3.googleusercontent.com/URg4CJyCeATjhe_DEZrRJdZkCbv2_O5i1dNMsJYOGgwAjfym940LAY4kfHpWrturw0zX32FdYbk)
+
 The solution generated from the solution proposed in "Simultaneous Optimization of Assignments and Goal Formations for Multiple Robots" has a final cost $c = 935.81$ and the iterative method's solution has a final cost $c = 79.78$. 
 
 Although, the iterative solution works better in this particular example, it is not necessarily the case that it will always generate a better solution. The globally optimal solution can be obtained using a brute force method where in, we iterate through all $n!$ solutions, find the optimal formation parameters using the solution presented by Derenick and Spletzer and lastly, taking the solution with the least cost $c$ as the solution. But, computing such a solution for the example above with $n = 344$ will take far too long. 
