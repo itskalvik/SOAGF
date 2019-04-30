@@ -106,7 +106,7 @@ Although, the iterative solution works better in this particular example, it is 
 
 I considered a few smaller problems, each with less than 11 points and was able to generate the brute force solution in about 40 mins each. The iterative solution always matches the brute force solution. But, this is by no means a conclusive proof that the iterative solution always converges to the globally optimal solution.  A proper mathematical proof is required. Moreover, the iterative solution still has room for improvement. For instance, I only used the SOCP solution for computing the formation parameters but you can also use the closed form solution for the optimal $\textbf{d} \ and \ \alpha$ before using the SCOP solution, which might lead to faster convergence. In practice I found that the iterative process's convergence rate is proportional to the number robots in the formation. In case of 8 points, the solution takes 2 iterations and 344 points it takes 4 iterations.
 
-## Reference
+## References
 
 * Agarwal, Saurav, and Srinivas Akella. "Simultaneous optimization of assignments and goal formations for multiple robots." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 
