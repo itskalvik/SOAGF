@@ -1,3 +1,5 @@
+## Intro
+
 $$
 \begin{aligned}
 \mathit{c}^{\alpha d \theta}_{ij} &= ||\mathbf{p}_i - \mathbf{q}_j||^2_2 \\
