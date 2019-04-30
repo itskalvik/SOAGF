@@ -55,6 +55,9 @@ $$
 ### Data Generation
 In order to generate the initial position matrix $\textbf{P}$ and goal formation $\textbf{S}$, I implemented the **get_sp** function which generated the following point clouds.  The returned $\textbf{S}$ point cloud is translated later, so that $\textbf{S}[0]$ lies at $(0, 0)$. 
 
+![initial_pos](initial_pos.png)
+![goal_for](goal_for.png)
+
 ![enter image description here](https://lh3.googleusercontent.com/2DNYiEq6Oc6FxNgRec7--c6IV2Oj_g1oRDuPiQiL1dEMnopBvDNRYh4y7daAdw3Z9ae1HHUAkzc)![enter image description here](https://lh3.googleusercontent.com/e-oIKsPQCZTCtdzZCSnmVkoyCfPDCZVjf6Te8fzz9pt8-8BsjQIS9A53MPViqdm-d1hggHrNHGU)
 
 ### Assignment and Goal Formation
