@@ -30,7 +30,7 @@ Subject \ to \quad &\sum_{i=1}^{n} x_{ij} = 1 \quad j=1,...,\mathit{n} \\
 \end{aligned}
 $$
 
-Which can be solved using the Hungarian algorithm. And, the globally optimal translation $$\textbf{d}^*$ and $\alpha^*$$ can be computed as follows:
+Which can be solved using the Hungarian algorithm. And, the globally optimal translation $$\textbf{d}^*$$ and $$\alpha^*$$ can be computed as follows:
 
 $$
 \begin{aligned}
