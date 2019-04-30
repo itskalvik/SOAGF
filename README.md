@@ -87,11 +87,17 @@ I found that by iteratively computing the assignments using the Hungarian algori
 
 The following images show the initial problem with the robots oriented with an arbitrary angle and a goal formation without any rotation. 
 
-![enter image description here](https://lh3.googleusercontent.com/Hutmx_Xjg33e9lahPxyMumZwqxLoTpjtn-_y-ztF495Kc6wpL9IUoEm1MB57rlg4eXKAcc8mIHg)
-![enter image description here](https://lh3.googleusercontent.com/O6tgHJZz2HxxXD3aQcHaL-alxvD43aaWosczeE2RzzMLAujz-KRi5QSf4Rduom-JQxn7gcz6StI)
-![enter image description here](https://lh3.googleusercontent.com/jU5c7bwzksFam9RU3HgYdRBZalLCu12O67KcpeG_24ejtQLFK0B8CgWyseIHI9lo0pq8LBNNTWw)
-![enter image description here](https://lh3.googleusercontent.com/DfvTqZUa7fqp4-0cKnLy3Pd3l6I2pTdHjuUUDnd58bWXgH0k36ypnYL6jxDei8VdhLgZvVKW8nc)
-![enter image description here](https://lh3.googleusercontent.com/URg4CJyCeATjhe_DEZrRJdZkCbv2_O5i1dNMsJYOGgwAjfym940LAY4kfHpWrturw0zX32FdYbk)
+<img src="http://kdkalvik.github.io/SOAGF/rotated_prob.png" > 
+
+<p align="center">
+  <img src="http://kdkalvik.github.io/SOAGF/SOAGF_iter_sol.gif" width="400" />
+  <img src="http://kdkalvik.github.io/SOAGF/SOAGF_normal_sol.gif" width="400" /> 
+</p>
+
+<p align="center">
+  <img src="http://kdkalvik.github.io/SOAGF/rotated_prob_sol1.png" width="400" />
+  <img src="http://kdkalvik.github.io/SOAGF/SOAGF_rot_Sol.png" width="400" /> 
+</p>
 
 The solution generated from the solution proposed in "Simultaneous Optimization of Assignments and Goal Formations for Multiple Robots" has a final cost $c = 935.81$ and the iterative method's solution has a final cost $c = 79.78$. 
 
