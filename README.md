@@ -91,7 +91,7 @@ Derenick and Spletzer propose a method to compute the optimal formation paramete
 I found that by iteratively computing the assignments using the Hungarian algorithm, followed by computing formation parameters using SOCP, until the cost $c$ across iterations differs by less than some threshold $\epsilon$, the optimal formation parameters and assignments can be obtained with polynomial time complexity.
 
 <img src="http://kdkalvik.github.io/SOAGF/rotated_prob.png"> 
-Initial Positions of the robots with an arbitrary rotation angle
+<em>Initial Positions of the robots with an arbitrary rotation angle</em>
 
 <p align="center">
   <img src="http://kdkalvik.github.io/SOAGF/rotated_prob_sol1.png" width="400" />
