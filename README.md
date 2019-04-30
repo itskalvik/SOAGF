@@ -111,7 +111,7 @@ I considered a few smaller problems, each with less than 11 points and was able 
 
 ## Conclusion
 
-I implenented the solution presented by Agarwal and Akella for the simultaneous optimization of assignments and goal formation parameters and addressed the limitation of the solution by proposing an iterative process to handle variable rotations of the goal formation. Lastly, I implemented the iterative solution and presented the results. 
+I implenented the solution presented by Agarwal and Akella for simultaneous optimization of assignments and goal formation parameters and addressed the limitation of the solution by proposing an iterative process to handle variable rotations of the goal formation. Lastly, I implemented the iterative solution and presented the results. 
 
 ## References
 
