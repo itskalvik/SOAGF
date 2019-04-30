@@ -49,3 +49,5 @@ The final trajectory of each robot, so that they all, start at the same time and
 $$
 \textbf{x}_i(t) = \textbf{p}_i + \left(\frac{\textbf{q}_{\phi(i)}-\textbf{p}_i}{t_f}\right) t, \quad t \in [0, t_f]
 $$
+
+{% include lib/mathjax.html %}
