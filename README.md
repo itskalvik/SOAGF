@@ -30,7 +30,7 @@ Subject \ to \quad &\sum_{i=1}^{n} x_{ij} = 1 \quad j=1,...,\mathit{n} \\
 \end{aligned}
 $$
 
-Which can be solved using the Hungarian algorithm. And, the globally optimal translation $\textbf{d}^*$ and $\alpha^*$ can be computed as follows:
+Which can be solved using the Hungarian algorithm. And, the globally optimal translation $$\textbf{d}^*$ and $\alpha^*$$ can be computed as follows:
 
 $$
 \begin{aligned}
@@ -39,7 +39,7 @@ $$
 \end{aligned}
 $$
 
-Where, $C^*$ is the cost $C$ parametrised by the optimal assignments $X^*$ obtained from the Hungarian algorithm. Once, the optimal assignments and the formation parameters are obtained, we assume straight line trajectories for every robot, which are to be collision-free under the following speperation conditions, defined in CAPT. 
+Where, $$C^*$$ is the cost $$C$$ parametrised by the optimal assignments $$X^*$$ obtained from the Hungarian algorithm. Once, the optimal assignments and the formation parameters are obtained, we assume straight line trajectories for every robot, which are to be collision-free under the following speperation conditions, defined in CAPT. 
 
 $$
  ||\mathbf{p}_i - \mathbf{p}_j||_2 > 2\sqrt2R \\
