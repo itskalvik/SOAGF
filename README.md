@@ -1,5 +1,13 @@
 ## Simultaneous Optimization of Assignments and Goal Formations for Multiple Robots
 
+$$
+\begin{aligned}
+\mathit{c}^{\alpha d \theta}_{ij} &= ||\mathbf{p}_i - \mathbf{q}_j||^2_2 \\
+& = (\mathbf{p}_i - \alpha R \mathbf{s}_j - \mathbf{d})^\top(\mathbf{p}_i - \alpha R\mathbf{s}_j - \mathbf{d}) \\
+& = \mathbf{p}_i^\top\mathbf{p}_i + \mathbf{d}^\top\mathbf{d} - 2\mathbf{p}_i^\top\mathbf{d} - 2\alpha\mathbf{p}_i^\top R\mathbf{s}_j + 2\alpha\mathbf{d}^\top R\mathbf{s}_j + \alpha ^ 2 \mathbf{s}_j^\top\mathbf{s}_j
+\end{aligned}
+$$
+
 ### Introduction
 There are several applications where having a large-scale team of robots is advantageous compared to using a  single robot. Tasks can be divided into several sub-tasks which can be distributed among the team of robots, the robots can be reconfigured to solve a complex task which would otherwise require a specialised robot and some tasks could be completed much faster when compared to using a single robot. One such use case would be disaster rescue where robots could be used to find survivors and alert authorities of their location. Another such application is exploration and mapping. Having multiple robots exploring and mapping different regions in space can greatly reduce the amount of time needed to complete the task. 
 
