@@ -100,8 +100,9 @@ Initial Positions of the robots with an arbitrary rotation angle
 <p align="center">
   <img src="http://kdkalvik.github.io/SOAGF/SOAGF_iter_sol.gif" width="400" />
   <img src="http://kdkalvik.github.io/SOAGF/SOAGF_normal_sol.gif" width="400" /> 
+  <em>(Left)Generated trajectories from Iterative Solution (Right) Generated trajectories without Variable Rotation
+</em>
 </p>
-(Left)Generated trajectories from Iterative Solution (Right) Generated trajectories without Variable Rotation
 
 The solution generated from the solution proposed in "Simultaneous Optimization of Assignments and Goal Formations for Multiple Robots" has a final cost $c = 935.81$ and the iterative method's solution has a final cost $c = 79.78$. 
 
