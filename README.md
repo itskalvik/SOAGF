@@ -89,8 +89,8 @@ The following images show the initial problem with the robots oriented with an a
 
 <img src="http://kdkalvik.github.io/SOAGF/rotated_prob.png" width="500" > 
 <p align="center">
-  <img src="http://kdkalvik.github.io/SOAGF/rotated_prob_sol1.png" width="450" />
-  <img src="http://kdkalvik.github.io/SOAGF/SOAGF_rot_Sol.png" width="450" /> 
+  <img src="http://kdkalvik.github.io/SOAGF/rotated_prob_sol1.png" width="400" />
+  <img src="http://kdkalvik.github.io/SOAGF/SOAGF_rot_Sol.png" width="400" /> 
 </p>
 <p align="center">
   <img src="http://kdkalvik.github.io/SOAGF/SOAGF_iter_sol.gif" width="400" />
