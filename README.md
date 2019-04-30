@@ -1,5 +1,3 @@
-## Simultaneous Optimization of Assignments and Goal Formations for Multiple Robots
-
 ### Introduction
 There are several applications where having a large-scale team of robots is advantageous compared to using a  single robot. Tasks can be divided into several sub-tasks which can be distributed among the team of robots, the robots can be reconfigured to solve a complex task which would otherwise require a specialised robot and some tasks could be completed much faster when compared to using a single robot. One such use case would be disaster rescue where robots could be used to find survivors and alert authorities of their location. Another such application is exploration and mapping. Having multiple robots exploring and mapping different regions in space can greatly reduce the amount of time needed to complete the task. 
 
@@ -19,3 +17,6 @@ $$
 & \quad \  - 2\mathbf{p}_i^\top\mathbf{d} + \mathbf{d}^\top\mathbf{d}
 \end{aligned}
 $$
+
+
+{% include lib/mathjax.html %}
